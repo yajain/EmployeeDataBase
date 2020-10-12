@@ -1,5 +1,5 @@
 -- This is the final version of all queries
--- Retirement eligibility & creating new table to hold info
+-- Retirement eligibility & creating new table to hold informations
 SELECT emp_no, first_name, last_name
 INTO retirement_info
 FROM employees
