@@ -12,7 +12,7 @@ FROM employees AS ce
 WHERE birth_date BETWEEN '1952-01-01' AND '1955-12-31'
 ORDER BY ce.emp_no;
 
--- Use Dictinct with Orderby to remove duplicate rows
+-- Using Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) emp_no, first_name, last_name, title
 INTO unique_titles
 FROM
